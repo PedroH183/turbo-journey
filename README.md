@@ -14,27 +14,9 @@ A learning project implementing a Retrieval-Augmented Generation (RAG) chatbot u
 ## Installation
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:PedroH183/turbo-journey.git
 cd lang_chain
 pip install -r requirements.txt
-```
-
-## Project Structure
-
-```
-lang_chain/
-├── main.py                 # Entry point and Gemini API integration
-├── requirements.txt        # Project dependencies
-├── app/
-│   ├── chat.py            # Main RAG implementation
-│   ├── data/
-│   │   └── meuarquivo.txt # Knowledge base
-│   ├── models/
-│   │   ├── embeddings.py  # Embedding model implementation
-│   │   └── vector_store.py # FAISS vector store implementation
-│   └── utils/
-│       └── text_processing.py # Text processing utilities
-└── .env                    # Environment variables
 ```
 
 ## How It Works
@@ -56,15 +38,6 @@ LANGSMITH_PROJECT=""
 GOOGLE_API_KEY=""
 ```
 
-## Usage
-
-1. Set up your environment variables in `.env`
-2. Place your text data in `meuarquivo.txt`
-3. Run the chat interface:
-
-```bash
-python chat.py
-```
 
 ## Next features
 
