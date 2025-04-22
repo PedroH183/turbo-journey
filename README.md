@@ -15,7 +15,7 @@ A learning project implementing a Retrieval-Augmented Generation (RAG) chatbot u
 
 ```bash
 git clone git@github.com:PedroH183/turbo-journey.git
-cd lang_chain
+cd turbo-journey
 pip install -r requirements.txt
 ```
 
